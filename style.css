@@ -43,7 +43,7 @@ html, body{
 .container{
  width: 358px;
   height: 572px;
-  background: url(img/Mask.png) no-repeat ;
+  background: url(img/Mask.svg) no-repeat ;
   border-radius: 1rem;
   z-index:5;
   position:absolute;
