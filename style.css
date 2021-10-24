@@ -54,7 +54,8 @@ html, body{
 }
 .conteudo-container{
   max-width: 250px;
-  margin: auto;
+  left:15%;
+  position:absolute;
 }
 .card{
   display: block;
