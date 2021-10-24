@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body{
+  width: 100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: url(img/Desktop.png) center; 
+  background-color: #000;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.effect{
+ position: absolute;
+ border-radius: 1rem;
+ background-color: rgba(126, 126, 126, 0.212);
+ border: 1px solid rgba(255, 255, 255, 0.411);
+ z-index: 0;
+ width: 358px;
+ height: 570px;
+ left: 50%;
+ margin-left: -180px;
+   
+}
+.mainImg1{
+  z-index: 7;
+  left: 50%;
+  margin-left: -15px;
+  position:absolute;
+}
+.mainImg2{
+  z-index: 6;
+  left: 50%;
+  margin-left: -19px;
+  position:absolute;
+  top:77px
+}
+
+.container{
+  width: 358px;
+  height: 450px;
+  background: url(img/Mask.png) no-repeat ;
+  border-radius: 1rem;
+  z-index:50;
+  position:absolute;
+  opacity:1;
+  left: 50%;
+  margin-left: -179px;
+  top:150px
+}
+.conteúdo-container{
+  max-width: 250px;
+  left:15%;
+  z-index:51;
+  position:absolute;
+}
+.card{
+  display: block;
+  margin-left: 42px;
+  padding-top: 4.5rem;
+  width:10rem;
+  position: relative;
+}
+.card .span {
+  position: absolute;
+  transform:translateY(-14px);
+  z-index:1;
+}
+.conteúdo-container .card .img {
+  width:10rem;
+  height:11.5rem;
+  object-fit: cover;
+  clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.card2{
+  flex-direction: column;
+  display: flex;
+  align-items:center;
+  color: #E1E1E6;;
+}
+h1{
+  font-size:1.5rem;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom:0;
+}
+.card2-1{
+  display: flex;
+}
+.card2 a{
+  text-decoration:none;
+  color:lightgrey;
+}
+.card2 p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 30px;
+}
+.conteúdo-container ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0;
+  margin:35px 0;
+  cursor:pointer;
+  z-index:100
+}
+.conteúdo-container ul li{
+ padding: 3px;
+ list-style: none;
+}
