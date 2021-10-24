@@ -52,7 +52,7 @@ html, body{
   margin-left: -179px;
   top:150px
 }
-.conteúdo-container{
+.conteudo-container{
   max-width: 250px;
   margin: auto;
 }
@@ -68,7 +68,7 @@ html, body{
   transform:translateY(-14px);
   z-index:1;
 }
-.conteúdo-container .card .img {
+.conteudo-container .card .img {
   width:10rem;
   height:11.5rem;
   object-fit: cover;
@@ -100,7 +100,7 @@ h1{
   line-height: 24px;
   margin-top: 30px;
 }
-.conteúdo-container ul{
+.conteudo-container ul{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,7 +108,7 @@ h1{
   margin:35px 0;
   cursor:pointer
 }
-.conteúdo-container ul li{
+.conteudo-container ul li{
  padding: 3px;
  list-style: none;
 }
